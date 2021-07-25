@@ -90,10 +90,10 @@ h4{
     padding: 0px 20px;
 }
 .welcome-img{
-    grid-column: 6/9;
+    grid-column:6/8;
 }
 .welcome-img img{
-    max-width: 200%;
+    max-width: 400%;
 }
 .welcome-text a{
     margin: 20px 0;
@@ -111,11 +111,13 @@ h4{
     text-align: center;
 }
 .profilepix img{
-    margin: -100 20px;
-    width: 200%;
+    /*margin: -50 50;*/
+    margin-left: 320;
+    margin-top: -70;
+    margin-right: 0;
+    width: 30%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 8px;
-
+    border-radius: 8px; 
 }
 .projects a{
     grid-column: 1/9;
@@ -323,7 +325,12 @@ footer img{
     #welcome, #skills, #contact{
         padding: 90px 0;
     }
-
+    .profilepix img{
+        margin: -100 20px;
+        width: 200%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 8px; 
+    }
     .projects a:nth-child(1){
         grid-column: 1/3;
     }
