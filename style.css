@@ -87,6 +87,7 @@ h4{
 }
 .welcome-text{
     grid-column: 1/6;
+    font-size: 2.5vw;
     padding: 0px 20px;
 }
 .welcome-img{
@@ -112,7 +113,7 @@ h4{
 }
 .profilepix img{
     /*margin: -50 50;*/
-    margin-left: 320;
+    margin-left: 365;
     margin-top: -70;
     margin-right: 0;
     width: 30%;
@@ -323,7 +324,13 @@ footer img{
         color: #f2f2f2;
     }
     #welcome, #skills, #contact{
-        padding: 90px 0;
+        padding: 90px 0;   
+    }
+    
+    .welcome-text{
+        /*grid-column: 1/6;*/
+        font-size: 20px;
+        padding: 0px 20px;
     }
     .profilepix img{
         margin: -100 20px;
